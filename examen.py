@@ -5,3 +5,6 @@ notas_estudiantes = {
 
 }
 
+for estudiante, notas in notas_estudiantes.items():
+    promedio = sum(notas) / len(notas)
+    print(f'El promedio de {estudiante} es: {promedio}')
